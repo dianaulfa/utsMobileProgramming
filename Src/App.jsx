@@ -1,17 +1,15 @@
-import {StyleSheet, Text, View, FlatList} from 'react-native';
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Home from './screens/Home';
 import About from './screens/About';
 
-const stack = createNativeStackNavigator();
 const Tabs = createBottomTabNavigator();
 
-const MenuTab = () => {
+const App = () => {
   return (
+    <NavigationContainer>
     <Tabs.Navigator screenOptions={{tabBarActiveTintColor: 'green'}}>
       <Tabs.Screen
         name="Home"
@@ -32,5 +30,8 @@ const MenuTab = () => {
         }}
       />
     </Tabs.Navigator>
+    </NavigationContainer>
   );
 };
+
+export default App
