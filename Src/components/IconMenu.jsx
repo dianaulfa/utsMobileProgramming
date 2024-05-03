@@ -5,7 +5,7 @@ const IconMenu = ({label}) => {
   return (
     <TouchableOpacity style={styles.container}>
       <View style={styles.box}>
-        <Text style={styles.textIcon}>icon</Text>
+        <Text style={styles.textIcon}></Text>
       </View>
       <Text style={styles.textIcon}>{label}</Text>
     </TouchableOpacity>
@@ -30,9 +30,5 @@ const styles = StyleSheet.create({
     alighitems: 'center',
     borderRadius: 10,
   },
-  textIcon: {
-    color: 'black',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
+ 
 });

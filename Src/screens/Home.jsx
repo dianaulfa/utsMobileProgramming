@@ -3,7 +3,7 @@ import React from 'react';
 import IconMenu from '../components/IconMenu';
 
 const Data = [
-  {id: 1, label: 'Top Up'},
+  {id: 1, label: 'Top up'},
   {id: 2, label: 'Diskon'},
   {id: 3, label: 'Go Foood'},
   {id: 4, label: 'Grab'},
@@ -36,10 +36,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 10,
-    backgroundColor: 'green',
+    backgroundColor: 'pink',
   },
   txt: {
-    fontSize: 18,
+    fontSize: 15,
     fontWeight: 'bold',
     color: 'white',
   },
