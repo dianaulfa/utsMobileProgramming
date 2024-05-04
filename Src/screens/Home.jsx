@@ -21,7 +21,7 @@ const Home = ({navigation}) => {
       <TouchableOpacity
         onPress={() => navigation.navigate('About')}
         style={styles.btn}>
-        <Text style={styles.txt}>ke About</Text>
+        <Text style={styles.txt}></Text>
       </TouchableOpacity>
     </View>
   );
@@ -36,11 +36,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 10,
-    backgroundColor: 'pink',
+    backgroundColor: 'yellow',
   },
   txt: {
     fontSize: 15,
     fontWeight: 'bold',
-    color: 'white',
+    color: 'black',
   },
 });

@@ -10,7 +10,7 @@ const Tabs = createBottomTabNavigator();
 const App = () => {
   return (
     <NavigationContainer>
-    <Tabs.Navigator screenOptions={{tabBarActiveTintColor: 'green'}}>
+    <Tabs.Navigator screenOptions={{tabBarActiveTintColor: 'black'}}>
       <Tabs.Screen
         name="Home"
         component={Home}
@@ -25,7 +25,7 @@ const App = () => {
         component={About}
         options={{
           tabBarIcon: ({size, color,}) => (
-            <MaterialCommunityIcons name="cog" size={size} color={color} />
+            <MaterialCommunityIcons name="emoticon" size={size} color={color} />
           ),
         }}
       />
