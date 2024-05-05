@@ -3,7 +3,7 @@ import React from 'react';
 import IconMenu from '../components/IconMenu';
 
 const Data = [
-  {id: 1, label: 'Top up'},
+  {id: 1, label: 'Top Up'},
   {id: 2, label: 'Diskon'},
   {id: 3, label: 'Go Foood'},
   {id: 4, label: 'Grab'},
